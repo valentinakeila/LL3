@@ -1,0 +1,36 @@
+.sidebar {
+  width: 57px;
+  background-color: #ffffff;
+  border-right: 1px solid #CCCCCC;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+}
+
+.sidebar-item {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5C5C5C;
+  cursor: pointer;
+  position: relative;
+}
+
+
+.sidebar-item.active {
+  border-left: 3px solid #005DAA;
+  border-radius: 0%;
+}
+
+

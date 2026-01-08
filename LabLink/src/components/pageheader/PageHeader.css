@@ -1,0 +1,32 @@
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: #F7F7F7;
+  height: 88px;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: 500;
+  color: #1B1B1D;
+  margin: 0;
+}
+
+.faq-button {
+  background-color: #ffffff;
+  border: 1px solid #92929E;
+  border-radius: 6px;
+  padding: 6px 24px;
+  font-size: 14px;
+  color: #0071D0;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+  width: 232px;
+}
+
+.faq-button:hover {
+  background-color: #F9FAFB;
+}

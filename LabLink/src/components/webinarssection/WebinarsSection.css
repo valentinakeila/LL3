@@ -1,0 +1,158 @@
+.webinars-section {
+  padding: 24px;
+}
+
+.webinars-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.webinars-header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.webinars-header p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #1B1B1D;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #1B1B1D;
+  font-weight: bold;
+}
+.sort-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  font-size: 14px;
+  border-radius: 100px;
+  border: 1px solid #92929E;
+  background: #ffffff;
+  cursor: pointer;
+  color: #1B1B1D;
+  font-weight: bold;
+}
+
+
+.webinar-card {
+  display: grid;
+  grid-template-columns: 160px 1fr 1px 240px;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  background: #ffffff;
+  height: 260px;
+}
+
+.webinar-image-wrapper {
+  position: relative;
+}
+
+.webinar-image-wrapper img {
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.badge-new {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #CEF6FF;
+  color: #003B49;
+  font-size: 14px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  height: 24px;
+  width: auto;
+  font-weight: 600;
+}
+
+.webinar-content h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.webinar-content p {
+  margin: 8px 0 12px;
+  font-size: 14px;
+  color: #1B1B1D;
+}
+
+.webinar-dates {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.date-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border: 1px solid #92929E;
+  border-radius: 100px;
+  font-size: 14px;
+  color: #54545C;
+  height: 28px;
+  font-weight: 500;
+}
+
+.register-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #0071D0;
+  background: #ffffff;
+  color: #0071D0;
+  font-size: 14px;
+  padding: 6px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+}
+
+.webinar-divider {
+  width: 1px;
+  background-color: #CCCCCC;
+}
+
+
+.webinar-speaker {
+  display: flex-column;
+  gap: 12px;
+  align-items: center;
+}
+
+.webinar-speaker img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.webinar-speaker span{
+  font-size: 14px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.webinar-speaker p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #54545C;
+}

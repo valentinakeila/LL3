@@ -1,0 +1,19 @@
+.welcome-banner {
+  margin: 24px;
+  padding: 24px;
+  background: linear-gradient(90deg, #0F2A52 0%, #2F5DA8 100%);
+  color: #ffffff;
+  height: 150px;
+}
+
+.welcome-banner h2 {
+  margin: 0 0 8px 0;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.welcome-banner p {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.9;
+}
