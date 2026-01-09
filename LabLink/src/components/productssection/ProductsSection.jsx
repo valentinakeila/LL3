@@ -16,6 +16,7 @@ function ProductsSection() {
     <section className="products-section">
       <div className="products-header">
         <h3>Products</h3>
+        <span>See All</span>
       </div>
 
       <div className="products-grid">
