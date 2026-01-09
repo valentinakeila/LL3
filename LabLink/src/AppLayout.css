@@ -9,3 +9,13 @@
   display: flex;
   overflow: hidden;
 }
+
+.sidebar {
+  width: 64px;
+  flex-shrink: 0;
+}
+
+.app-content {
+  flex: 1;
+  overflow-y: auto;
+}

@@ -1,0 +1,42 @@
+.webinars-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 16px;
+  width: 952px;
+  padding-left: 24px;
+}
+
+.webinars-header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.webinars-header p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #1B1B1D;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #1B1B1D;
+  font-weight: bold;
+}
+.sort-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  font-size: 14px;
+  border-radius: 100px;
+  border: 1px solid #92929E;
+  background: #ffffff;
+  cursor: pointer;
+  color: #1B1B1D;
+  font-weight: bold;
+}

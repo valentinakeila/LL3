@@ -1,0 +1,22 @@
+.library-page {
+  width: 100%;
+}
+
+.library-two-columns {
+  display: flex;
+  gap: 24px;
+  padding-right: 24px;
+  align-items: flex-start;
+  padding-bottom: 24px;
+}
+
+.library-two-columns > :first-child {
+  flex: 1;
+  min-width: 0;
+}
+
+
+.qc-resources {
+  width: 320px;
+  flex-shrink: 0;
+}

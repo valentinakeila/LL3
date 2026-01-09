@@ -11,7 +11,10 @@ function AppLayout() {
 
       <div className="app-body">
         <Sidebar />
-        <Library />
+
+        <div className="app-content">
+          <Library />
+        </div>
       </div>
     </div>
   );
