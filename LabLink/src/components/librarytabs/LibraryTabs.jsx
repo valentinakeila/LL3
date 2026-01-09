@@ -4,15 +4,30 @@ import {
  faHeart
 } from '@fortawesome/free-regular-svg-icons';
 
-function LibraryTabs() {
+function LibraryTabs({ activeTab, onChange}) {
   return (
-    <div className="library-tabs">
+       <div className="library-tabs">
 
       <div className="tabs-left">
-        <button className="tab">Product documents</button>
-        <button className="tab active">QC Education</button>
-        <button className="tab">Technical documents</button>
+        <button
+          className={`tab ${activeTab === 'products' ? 'active' : ''}`}
+          onClick={() => onChange('products')}
+        >
+          Product documents
+        </button>
+
+        <button
+          className={`tab ${activeTab === 'qc' ? 'active' : ''}`}
+          onClick={() => onChange('qc')}
+        >
+          QC Education
+        </button>
+
+        <button className="tab">
+          Technical documents
+        </button>
       </div>
+
       <div className='favorites-container'>
       <button className="favorites-btn"> 
         <FontAwesomeIcon icon={faHeart} /> Favorites
